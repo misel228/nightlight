@@ -40,37 +40,37 @@ void setup() {
   Serial.begin(9600);
 
   Serial.println("Basic colors");
-  colors[0].r = 255;
+  colors[0].r = 1;
   colors[0].g = 0;
   colors[0].b = 0;
 
-  colors[1].r = 0;
-  colors[1].g = 255;
+  colors[1].r = 1;
+  colors[1].g = 0;
   colors[1].b = 0;
 
-  colors[2].r = 0;
+  colors[2].r = 1;
   colors[2].g = 0;
-  colors[2].b = 255;
+  colors[2].b = 0;
 
-  colors[3].r = 255;
-  colors[3].g = 255;
+  colors[3].r = 1;
+  colors[3].g = 0;
   colors[3].b = 0;
 
-  colors[4].r = 255;
+  colors[4].r = 1;
   colors[4].g = 0;
-  colors[4].b = 255;
+  colors[4].b = 0;
 
-  colors[5].r = 0;
-  colors[5].g = 255;
-  colors[5].b = 255;
+  colors[5].r = 1;
+  colors[5].g = 0;
+  colors[5].b = 0;
 
-  colors[6].r = 0;
+  colors[6].r = 1;
   colors[6].g = 0;
   colors[6].b = 0;
 
-  colors[7].r = 255;
-  colors[7].g = 255;
-  colors[7].b = 255;
+  colors[7].r = 1;
+  colors[7].g = 0;
+  colors[7].b = 0;
 
 
   Serial.println("Init FastLEDs");
