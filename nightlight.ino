@@ -124,7 +124,7 @@ void loop() {
     pir_was_read = true;
 
     ldr = analogRead(PHOTO_PIN);  // read photo resistance
-    Serial.print("Lightness: ");
+    Serial.print("Brightness: ");
     Serial.println(ldr);
   }
 
